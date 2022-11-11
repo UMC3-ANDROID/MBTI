@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity"
+    android:orientation="vertical"
+    android:background="#ffc5dc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약속에 20분이나 늦어버렸다! 이때 나는.."
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내가 늦은 이유를 논리정연하게 설명한다"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#ffc5dc"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/yes2_btn" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="미안해 ㅠㅠ 너무 늦었지? 폭풍사과한다"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ffc5dc"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/no2_btn"/>
+
+
+
+
+
+</LinearLayout>
+

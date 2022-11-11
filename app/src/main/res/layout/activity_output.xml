@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OutputActivity"
+    android:orientation="vertical"
+    android:background="#ffc5dc"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나의 결과"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="논리적 사고형, 'T'형"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 토론과 논평을 좋아하는 유형이다.\n2. 감정적인 공감보다는 능력을 칭찬해주는 말을 더 좋아한다.\n3. 공감을 못하는 것은 아니다. 공감하는 방식이 다를 뿐이다.\n4. 먼저 논리적으로 인과관계를 이해해야 공감을 할 수 있다고 생각한다"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="결과 공유"
+        android:backgroundTint="#A0AFFF"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다시하기"
+        android:backgroundTint="#A0AFFF"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="220dp"
+
+        />
+
+
+</LinearLayout>
