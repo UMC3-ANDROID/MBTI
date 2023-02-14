@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        //그릴 xml 뷰 파일을 연결 시켜준다.
+        //그릴 xml 뷰s 파일을 연결 시켜준다.
         setContentView(R.layout.activity_main)
 
         //로그인 버튼 뷰에 클릭 리스너 설정정
